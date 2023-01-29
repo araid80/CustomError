@@ -7,31 +7,31 @@
 [![License Badge](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 ![Plaforms](https://img.shields.io/badge/Platform-macOS_iOS_tvOS_watchOS-lightgrey.svg)
 
-##Installation
+## Installation
 
-###CocoaPods
+### CocoaPods
 
 ```
 pod 'CustomError'
 ```
 
-##Example
+## Example
 
-###Swift
+### Swift
 ```swift
 let customError1 = CustomError()    // empty parameter -> UnknownError
 let customError2 = CustomError(domain: "CustomErrorExample", code: -1)  // Is the same as NSError.
 let customError3 = CustomError(domain: "CustomErrorExample", code: -1, userInfo: [NSLocalizedDescriptionKey : "custom error"])  // Is the same as NSError.
 ```
 
-###Objective-C
+### Objective-C
 ```objective-c
 NSError *customError1 = [[CustomError alloc] init];
 NSError *customError2 = [[CustomError alloc] initWithDomain:@"CustomErrorExample" code:-1 userInfo:nil];
 ```
 
 
-##Extension
+## Extension
 Create an enumeration of Int types and expand using CustomErrorType protocol.
 
 
