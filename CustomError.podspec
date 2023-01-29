@@ -20,11 +20,9 @@ Pod::Spec.new do |s|
   s.description      = "description"
 
   s.homepage         = 'https://github.com/araid80/CustomError'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT' }
-  s.author           = { 'wade' => 'araid80@gmail.com' }
+  s.author           = { 'araid80' => 'araid80@gmail.com' }
   s.source           = { :http => 'https://github.com/araid80/CustomError.git' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '15.4'
@@ -32,18 +30,4 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '8.4'
 
   s.source_files = 'CustomError/**/*'
-  #s.framework = "AIPlayerBackend"
-  #s.vendored_frameworks = 'AIPlayer/Framework/AIPlayerBackend.xcframework'
-  
-  # s.resource_bundles = {
-  #   'AIPlayer' => ['AIPlayer/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  #s.dependency 'Socket.IO-Client-Swift', '~> 15.2.0'
-  #s.dependency 'SwiftJWT', '~> 3.6.200'
-  #s.dependency 'SSZipArchive', '~> 2.4.2'
-  #s.xcconfig = { "OTHER_CFLAGS" => "-fembed-bitcode" }
 end
