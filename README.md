@@ -1,5 +1,5 @@
 # CustomError
-
+Create error objects faster and easier!
 
 [![Swift 5.0](https://img.shields.io/badge/swift-5.0-orange.svg?style=flat)](https://swift.org)
 ![Languages](https://img.shields.io/badge/Language-Objective--C%20%7C%20Swift-orange.svg)

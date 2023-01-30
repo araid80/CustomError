@@ -23,11 +23,14 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT' }
   s.author           = { 'araid80' => 'araid80@gmail.com' }
   s.source           = { :http => 'https://github.com/araid80/CustomError.git' }
+  s.documentation_url = 'https://github.com/araid80/CustomError'
 
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '15.4'
   s.osx.deployment_target = '10.15'
   s.watchos.deployment_target = '8.4'
 
-  s.source_files = 'CustomError/**/*'
+  s.source_files = 'CustomError/**/*.swift'
+  s.framework = 'Foundation'
+  s.swift_version = '5'
 end
